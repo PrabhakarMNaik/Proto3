@@ -1,0 +1,79 @@
+{
+  "environment": {
+    "ros_distro": "humble",
+    "ros_domain": "Not set",
+    "ROS_LOCALHOST_ONLY": "0",
+    "AMENT_PREFIX_PATH": "/opt/ros/humble",
+    "PYTHONPATH": "/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages",
+    "LD_LIBRARY_PATH": "/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib",
+    "workspace_found": false
+  },
+  "packages": {
+    "ros2cli": true,
+    "rclcpp": true,
+    "rclpy": true,
+    "std_msgs": true,
+    "geometry_msgs": true,
+    "sensor_msgs": true,
+    "tf2_ros": true,
+    "tf2_geometry_msgs": true,
+    "robot_state_publisher": true,
+    "joint_state_publisher": true,
+    "joint_state_publisher_gui": true,
+    "urdf": true,
+    "xacro": true,
+    "rviz2": true,
+    "gazebo_ros_pkgs": false,
+    "gazebo_ros2_control": false,
+    "gazebo_plugins": false,
+    "ros2_control": true,
+    "ros2_controllers": true,
+    "controller_manager": true,
+    "joint_state_broadcaster": true,
+    "joint_trajectory_controller": true,
+    "position_controllers": true,
+    "effort_controllers": true,
+    "moveit_ros_planning_interface": true,
+    "moveit_ros_move_group": true,
+    "moveit_kinematics": true,
+    "moveit_planners_ompl": true,
+    "moveit_servo": true,
+    "rosbag2": true,
+    "plotjuggler_ros": false,
+    "rqt_robot_steering": false,
+    "rqt_joint_trajectory_controller": false
+  },
+  "plugins": {},
+  "controllers": {
+    "joint_state_broadcaster/JointStateBroadcaster": true,
+    "joint_trajectory_controller/JointTrajectoryController": true,
+    "position_controllers/JointPositionController": true,
+    "effort_controllers/JointEffortController": true,
+    "velocity_controllers/JointVelocityController": true
+  },
+  "hardware_interfaces": {
+    "command_available": false,
+    "gazebo_ros2_control/GazeboSystem": false,
+    "mock_components/GenericSystem": false
+  },
+  "gazebo": {},
+  "moveit": {
+    "moveit_core": true,
+    "moveit_ros_planning": true,
+    "moveit_ros_planning_interface": true,
+    "moveit_ros_move_group": true,
+    "moveit_planners_ompl": true,
+    "moveit_kinematics": true,
+    "moveit_servo": true,
+    "ompl_available": false
+  },
+  "sensors": {
+    "libgazebo_ros_camera.so": false,
+    "libgazebo_ros_depth_camera.so": false,
+    "libgazebo_ros_multicamera.so": false,
+    "libgazebo_ros_openni_kinect.so": false,
+    "libgazebo_ros_laser.so": false,
+    "libgazebo_ros_gpu_laser.so": false,
+    "libgazebo_ros_imu_sensor.so": false
+  }
+}
