@@ -1,8 +1,10 @@
-controller_names:
-  - joint_state_broadcaster
-  - arm_controller
+moveit_controller_manager: moveit_ros_control_interface/MoveItControllerManager
 
-moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+moveit_simple_controller_manager:
+  controller_names:
+    - joint_state_broadcaster
+    - arm_controller
+
 
 arm_controller:
   type: FollowJointTrajectory

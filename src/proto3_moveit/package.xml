@@ -11,7 +11,14 @@
   <exec_depend>ros2launch</exec_depend>
   <exec_depend>rviz2</exec_depend>
   <exec_depend>moveit_config_utils</exec_depend>
-  
+
+  <!-- Add these to proto3_moveit/package.xml -->
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>moveit_ros_move_group</depend>
+  <depend>moveit_kinematics</depend>
+  <depend>moveit_planners_ompl</depend>
+  <depend>moveit_simple_controller_manager</depend>
+
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
