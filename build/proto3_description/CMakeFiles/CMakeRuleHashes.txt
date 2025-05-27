@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-3678bcd4d27ba34068ec379259f8a9a9 CMakeFiles/proto3_description_uninstall

@@ -1,9 +1,0 @@
-/home/prabhakar/sandBox/proto3_ws/build/proto3_controller/CMakeFiles/uninstall.dir
-/home/prabhakar/sandBox/proto3_ws/build/proto3_controller/CMakeFiles/proto3_controller_uninstall.dir
-/home/prabhakar/sandBox/proto3_ws/build/proto3_controller/CMakeFiles/test.dir
-/home/prabhakar/sandBox/proto3_ws/build/proto3_controller/CMakeFiles/edit_cache.dir
-/home/prabhakar/sandBox/proto3_ws/build/proto3_controller/CMakeFiles/rebuild_cache.dir
-/home/prabhakar/sandBox/proto3_ws/build/proto3_controller/CMakeFiles/list_install_components.dir
-/home/prabhakar/sandBox/proto3_ws/build/proto3_controller/CMakeFiles/install.dir
-/home/prabhakar/sandBox/proto3_ws/build/proto3_controller/CMakeFiles/install/local.dir
-/home/prabhakar/sandBox/proto3_ws/build/proto3_controller/CMakeFiles/install/strip.dir

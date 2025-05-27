@@ -1,4 +1,0 @@
-Invoking command in '/home/prabhakar/sandBox/proto3_ws/build/proto3_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prabhakar/sandBox/proto3_ws/build/proto3_moveit -- -j12 -l12
-Invoked command in '/home/prabhakar/sandBox/proto3_ws/build/proto3_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/prabhakar/sandBox/proto3_ws/build/proto3_moveit -- -j12 -l12
-Invoking command in '/home/prabhakar/sandBox/proto3_ws/build/proto3_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prabhakar/sandBox/proto3_ws/build/proto3_moveit
-Invoked command in '/home/prabhakar/sandBox/proto3_ws/build/proto3_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/prabhakar/sandBox/proto3_ws/build/proto3_moveit
