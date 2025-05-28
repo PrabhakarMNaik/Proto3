@@ -37,7 +37,7 @@ def generate_launch_description():
         executable="robot_state_publisher",
         parameters=[{"robot_description": robot_description,
                      "use_sim_time": False}],
-        condition=UnlessCondition(is_sim),
+
     )
 
     controller_manager = Node(
@@ -49,7 +49,7 @@ def generate_launch_description():
             os.path.join(
                 get_package_share_directory("proto3_controller"),
                 "config",
-                "proto3_controllers.yaml",
+
             ),
         ],
         condition=UnlessCondition(is_sim),
