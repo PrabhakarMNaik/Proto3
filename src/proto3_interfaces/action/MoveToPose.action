@@ -3,6 +3,7 @@ geometry_msgs/PoseStamped target_pose
 ---
 #Result
 bool success
+geometry_msgs/PoseStamped reached_pose
 ---
 # Feedback
 geometry_msgs/PoseStamped current_pose
